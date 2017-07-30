@@ -29,7 +29,6 @@ public class Receiver extends Thread {
 	private static Frame capturedFrame = null;
 	private static Java2DFrameConverter frameConverter = new Java2DFrameConverter();
 	
-	// test
 	private Socket clientSocket;
 	
 	Receiver(Socket s) {
