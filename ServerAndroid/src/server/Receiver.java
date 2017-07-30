@@ -117,7 +117,6 @@ public class Receiver extends Thread {
 							}
 						}
 					} catch (Exception e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 					break;
@@ -133,7 +132,6 @@ public class Receiver extends Thread {
 			System.out.println("Client ended session");
 
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
@@ -147,7 +145,6 @@ public class Receiver extends Thread {
 		try {
 			grabber.start();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
