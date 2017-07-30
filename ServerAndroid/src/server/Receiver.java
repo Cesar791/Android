@@ -20,8 +20,6 @@ import org.bytedeco.javacv.FrameGrabber.Exception;
 
 public class Receiver extends Thread {
 
-	//private static final int portnumber = 4444;
-
 	private static int captureWidth = 480;// 1280;
 	private static int captureHeight = 320;// 720;
 	private static long DELAY = 200;
