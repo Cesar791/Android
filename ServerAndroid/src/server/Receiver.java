@@ -38,18 +38,9 @@ public class Receiver extends Thread {
 		this.clientSocket = s;
 	}
 
-	//public static void main(String[] args) {
 	public void run() {
-		//ServerSocket serverSocket = null;
 
 		try {
-			/*System.out.println("Server start at port number: " + portnumber);
-			serverSocket = new ServerSocket(portnumber);
-
-			// client connecting
-			System.out.println("Waiting for client to connect");
-			Socket clientSocket = serverSocket.accept();
-*/
 			System.out.println("Connection from : " + clientSocket.getInetAddress().getHostAddress() + ':'
 					+ clientSocket.getPort());
 
