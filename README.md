@@ -1,6 +1,6 @@
 # Android
 
-This repo contains a client (Android) and server (Java) application. The server performs facial recognition using JavaCV (OpenCV) and then sends the processed camera frames to the client.
+This repo contains a client (Android) and server (Java) application. The server performs facial recognition on frames from a camera feed using JavaCV (OpenCV) and then sends the processed frames to the client.
 
 The client can also send messages to the server which can be built upon in the future for smart home application.
 ## Prerequisite
