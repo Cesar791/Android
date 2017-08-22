@@ -14,11 +14,11 @@ The client can also send messages to the server which can be built upon in the f
 
 ### Initiate the server
 Using Eclipse 
-1. run "Server.java".
+* run "Server.java".
 
 Using Terminal
-1. "javac server/Server.java".
-2. "java server.Server".
+* "javac server/Server.java".
+* "java server.Server".
 
 ### Initiate the client
 * Open ClientAndroid folder in Android Studio.
