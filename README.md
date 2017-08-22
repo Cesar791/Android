@@ -13,7 +13,8 @@ The client can also send messages to the server which can be built upon in the f
 * "MainActivity.java" is located in app/Java in the project (left) sidebar.
 
 ### Initiate the server
-Using Eclipse run "Server.java".
+Using Eclipse 
+1. run "Server.java".
 
 Using Terminal
 1. "javac server/Server.java".
